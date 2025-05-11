@@ -25,7 +25,7 @@ const config = {
   organizationName: 'RuhollaKH', // Usually your GitHub org/user name.
   projectName: 'ruholla-blog', // Usually your repo name.
   deploymentBranch: 'gh-pages',
-  trailingSlash: false,
+  trailingSlash: true,
 
 
   onBrokenLinks: 'throw',
@@ -63,6 +63,8 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          routeBasePath: 'blog', // important
+          editLocalizedFiles: true,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
