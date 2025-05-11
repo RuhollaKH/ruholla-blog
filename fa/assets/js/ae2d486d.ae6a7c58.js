@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkruholla_blog=self.webpackChunkruholla_blog||[]).push([[5361],{3870:l=>{l.exports=JSON.parse('{"metadata":{"permalink":"/ruholla-blog/fa/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

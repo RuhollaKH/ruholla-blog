@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkruholla_blog=self.webpackChunkruholla_blog||[]).push([[1903],{1912:l=>{l.exports=JSON.parse('{"blogBasePath":"/ruholla-blog/blog","blogTitle":"Blog","authorsListPath":"/ruholla-blog/blog/authors"}')}}]);
