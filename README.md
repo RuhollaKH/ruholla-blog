@@ -42,4 +42,4 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 
 * To deploy `` npm run deploy``
-*
+* To visit the blog: ``https://ruhollakh.github.io/ruholla-blog``

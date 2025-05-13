@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Blockchain, Cryptography',
+  tagline: 'Zero Knowledge Proofs (ZKPs), DeFi, Web3',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -43,11 +43,29 @@ const config = {
         direction: 'ltr',
       },
       fa: {
-        label: 'فارسی',
-        direction: 'rtl',
+        label: "فارسی",
+        direction: "rtl",
+        htmlLang: "fa-IR",
+        calendar: "persian",
       },
     },
   },
+  /*
+  i18n: {
+    defaultLocale: "fa",
+    locales: ["fa"],
+    path: "i18n",
+    localeConfigs: {
+      fa: {
+        label: "فارسی",
+        direction: "rtl",
+        htmlLang: "fa-IR",
+        calendar: "persian",
+        path: "fa",
+      },
+    },
+  },
+  */
   
   presets: [
     [
@@ -63,6 +81,8 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
           routeBasePath: 'blog', // important
           editLocalizedFiles: true,
           feedOptions: {
@@ -105,7 +125,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/RuhollaKH/ruholla-blog',
             label: 'GitHub',
             position: 'right',
           },
@@ -131,16 +151,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/ruhollakhodakaramian',
               },
               {
                 label: 'X',
-                href: 'https://x.com/docusaurus',
+                href: 'https://x.com/Ruholla03140252',
               },
             ],
           },
@@ -153,7 +169,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/RuhollaKH',
               },
             ],
           },
